@@ -1,0 +1,38 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+hardhat.config.js
+hardhat.config.ts
+#Hardhat files
+cache
+artifacts
+
+# client 
+
+# dependencies
+client/node_modules
+client/.pnp
+/client.pnp.js
+
+# testing
+/coverage
+
+# production
+client/build
+
+# misc
+client/.DS_Store
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+client/package-lock.json
+
