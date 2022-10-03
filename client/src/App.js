@@ -9,12 +9,13 @@ import ethLogo from './assets/ethlogo.png';
 
 
 
+
 // Constants
 const TWITTER_HANDLE = '_buildspace';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const tld = '.milk';
-const CONTRACT_ADDRESS = '0x1FF9087EBcA2e4CD71cC400f9C4226311078A5f0';
+const CONTRACT_ADDRESS = process.env.REACT_APP_CONTRACT_ADDRESS;
 
 const App = () => {
   // a state variable we use to store our user's public wallet 
